@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+   margin-left: 20px;
+}
+.hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
