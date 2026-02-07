@@ -8,11 +8,30 @@ import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 const sidebarItems = [
-  { name: "Dashboard", icon: <MdDashboard />, link: "/" },
-  { name: "Profile", icon: <FaUser />, link: "/profile" },
-  { name: "Order", icon: <AiOutlineShoppingCart />, link: "/order" },
-  { name: "Product", icon: <IoBag />, link: "/product" },
-  { name: "Sales Report", icon: <FaChartLine />, link: "/report" },
+  { name: "Dashboard",
+     icon: <MdDashboard />,
+      link: "/"
+     },
+  { 
+    name: "Profile", 
+    icon: <FaUser />,
+     link: "/profile"
+     },
+  { 
+    name: "Order",
+     icon: <AiOutlineShoppingCart />,
+      link: "/order"
+     },
+  { 
+    name: "Product", 
+    icon: <IoBag />, 
+    link: "/product"
+   },
+  { 
+    name: "Sales Report", 
+    icon: <FaChartLine />,
+     link: "/report"
+     },
 ];
 
 const Sidebar = ({ toggleSidebar }) => {
