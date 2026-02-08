@@ -1,8 +1,14 @@
 import React from 'react'
+import TodaySelse from './todaySelse'
+
 
 function dashboard() {
   return (
-    <div>dashboard</div>
+      <>
+        
+        <TodaySelse />
+
+       </>
   )
 }
 
