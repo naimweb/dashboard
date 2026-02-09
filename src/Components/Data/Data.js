@@ -1,6 +1,6 @@
 import { BiCart, BiAlarm, BiAtom, BiBarChartAlt2 } from "react-icons/bi";
 
- export const Data = [
+  export const Data = [
   {
     id: 1,
     icon: BiCart,
@@ -35,4 +35,33 @@ import { BiCart, BiAlarm, BiAtom, BiBarChartAlt2 } from "react-icons/bi";
 },
 ];
 
-export default Data;
+
+// topProducs data sefarator 
+
+export const  TopPruducsData = [
+   {
+     id:1,
+     name:"md naim",
+     priority:90,
+     color:"green"
+   },
+   {
+     id:2,
+     name:"md naim islam",
+     priority:80,
+     color:"black"
+   },
+   {
+     id:3,
+     name:"md naim shek",
+     priority:70,
+     color:"gray"
+   },
+   {
+     id:4,
+     name:"md naim shekh",
+     priority:60,
+     color:"yellow"
+   }
+]
+
