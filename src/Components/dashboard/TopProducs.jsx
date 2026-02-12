@@ -8,7 +8,7 @@ function TopProducs() {
   const label = ["#", "Name", "Popularity", "Sales", "Trend"];
 
   return (
-    <div className="p-4">
+    <div className="p-4 ">
       <ContentHeader tittle="Top Products" />
 
       {/* header */}
@@ -24,19 +24,19 @@ function TopProducs() {
       {TopPruducsData.map((i, ind) => (
         <div
           key={i.id}
-          className="flex items-center w-full text-white text-sm py-2 border-b"
+          className="flex justify-between  items-center w-full text-white text-sm py-3 border-b px-3"
         >
           {/* index */}
-          <div className="w-[5%]">{ind + 1}</div>
+          <div className="w-[5%]">{ind + 0}</div>
 
           {/* name */}
-          <div className="w-[25%]">{i.name}</div>
+          <div className="w-[25%] mx-auto  ml-[16%] text-[20px] ">{i.name}</div>
 
           {/* progress */}
           <div className="w-[25%]">
-            <div className="w-full h-[14px] bg-gray-500 rounded-full">
+            <div className="w-full h-[14px] bg-gray-500 rounded-full ">
               <div
-                className="h-full rounded-full"
+                className="h-full rounded-full flex gap-"
                 style={{
                   width: `${i.priority}%`,
                   background: i.color,
@@ -46,12 +46,16 @@ function TopProducs() {
           </div>
 
           {/* percentage */}
-          <div className="w-[10%]">
+          <div className="w-[10%] flex gap-6 ">
+            <div></div>
             <button
               className="px-2 py-1 rounded-sm border"
               style={{ color: i.color, borderColor: i.color }}
             >
+               <div className="">
+
               {i.priority}%
+               </div>
             </button>
           </div>
 

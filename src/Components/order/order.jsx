@@ -1,8 +1,15 @@
 import React from 'react'
+import OrderHeading from './OrderHeading'
+import PaymentList from './paymentList'
+
 
 function order() {
   return (
-    <div>order</div>
+    <>
+     <OrderHeading />
+     <PaymentList />
+   
+     </>
   )
 }
 

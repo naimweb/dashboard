@@ -1,4 +1,6 @@
 import { BiCart, BiAlarm, BiAtom, BiBarChartAlt2 } from "react-icons/bi";
+import { FaFacebook } from "react-icons/fa";
+
 
   export const Data = [
   {
@@ -41,27 +43,60 @@ import { BiCart, BiAlarm, BiAtom, BiBarChartAlt2 } from "react-icons/bi";
 export const  TopPruducsData = [
    {
      id:1,
-     name:"md naim",
+     name:"Rank 1",
      priority:90,
      color:"green"
    },
    {
      id:2,
-     name:"md naim islam",
+     name:"Rank 2",
      priority:80,
      color:"black"
    },
    {
      id:3,
-     name:"md naim shek",
+     name:"Rank 3",
      priority:70,
      color:"gray"
    },
    {
      id:4,
-     name:"md naim shekh",
+     name:"Rank 4",
      priority:60,
      color:"yellow"
+   }
+]
+
+
+// PicProfile component
+
+export const HeadingEvarage = [
+   {
+      
+      Name:"Hello",
+      expence:"500+"
+   },
+   {
+      Name:"the",
+      expence:"600+"
+   },
+   {
+      Name:"World",
+      expence:"700+"
+   }
+]
+
+// OrderHading component for order data showing
+
+export const methodData  = [
+   {
+     order:"order",
+     date:"date",
+     customer:"Customer",
+     payment:"Payment",
+     total:"Total",
+     delevery:"Dalevery",
+     action:"Action"
    }
 ]
 
