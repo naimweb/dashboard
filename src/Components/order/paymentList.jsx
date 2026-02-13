@@ -1,15 +1,15 @@
-import React from 'react'
+
 
 function PaymentList() {
 
-  const Payment = Array.from({ length: 20 }, (_, i) => ({
-    number: `#${i + 1}`,
+  const Payment = Array.from({ length: 20 }, (_,i) => ({
+    number: `${i + 1}`,
    date: new Date(
   new Date().getFullYear(),
   Math.floor(Math.random()*12),
   Math.floor(Math.random()*28)+1
+  
 ).toLocaleDateString(),
-
     coustomer: `Customer ${i + 1}`,
     payment: i % 2 === 0 ? "success" : "pending",
     total: (Math.random()* 100).toFixed(2),
@@ -17,6 +17,7 @@ function PaymentList() {
     actionR: "Rename",
     actionD: "Delete"
   }));
+  
 
   return (
     <div className='mt-6 w-[95%] mx-auto'>
