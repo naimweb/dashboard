@@ -98,5 +98,7 @@ export const methodData  = [
      delevery:"Dalevery",
      action:"Action"
    }
-]
+
+
+  ]
 
