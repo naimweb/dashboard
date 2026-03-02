@@ -8,7 +8,8 @@ import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 const sidebarItems = [
-  { name: "Dashboard",
+  {
+     name: "Dashboard",
      icon: <MdDashboard />,
       link: "/"
      },
