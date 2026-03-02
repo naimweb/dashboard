@@ -1,7 +1,7 @@
 import React from 'react'
 
 import ContentHeader from './../ContentHeader';
-import { PrdData } from './prdData';
+import { PrdData } from './prdData.js';
 
 function HeaderProduct() {
   return (
